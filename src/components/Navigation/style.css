@@ -1,0 +1,61 @@
+.Nav {
+    position: relative;
+}
+
+.Nav a {
+    color: #634319;
+    text-decoration: none;
+}
+
+.Nav a:hover {
+    color: #e0caad;
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.logo {
+    font-size: 18px;
+}
+
+#shoppingcart {
+    border: none;
+    background-color: unset;
+}
+
+#shoppingcart:hover {
+    cursor: pointer;
+}
+
+#signinbtn {
+    border: none;
+    background-color: unset;
+    font-size: 14px;
+}
+
+#signinbtn:hover {
+    cursor: pointer;
+}
+
+#signinbtn:focus {
+    outline: none;
+}
+
+#collectionbtn {
+    border: none;
+    background-color: unset;
+    font-size: 14px;
+}
+
+#collectionbtn:hover {
+    cursor: pointer;
+}
+
+#search-box {
+    position: relative;
+    bottom: 5px;
+}
